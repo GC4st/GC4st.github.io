@@ -31,6 +31,7 @@
   </head>
   <body>
     <div class="bungkus">
+      <h3>Klik Start 2 kali</h3>
       <button onclick="startGame()" id="btn">START</button></div>
     <script>
       var myGamePiece;
@@ -91,7 +92,7 @@
         },
         stop: function () {
           clearInterval(this.interval);
-          alert("press f5 to restart")
+          alert("press f5 or ctrl+r to restart")
         },
       };
 
